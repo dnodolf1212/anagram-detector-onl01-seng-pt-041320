@@ -5,8 +5,9 @@ class Anagram
     @word = word
   end
   
-  def match
-    %w(word)
+  def match(arr)
+    arr.leep_if{|str| word.split(" ").sort == str.split(" ")
+    
   end
   
   
